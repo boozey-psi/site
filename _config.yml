@@ -1,15 +1,14 @@
 # The Site Configuration
 
 # Import the theme
-theme: jekyll-theme-chirpy
+theme: minima
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-#baseurl: '/heidloffblog'
-baseurl: ''
+baseurl: '/site' 
+#baseurl: ''
 
-#url: 'https://nheidloff.github.io/heidloffblog'
-url: 'https://heidloff.net'
+url: 'https://boozey-psi.github.io/site'
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -22,28 +21,28 @@ timezone: Europe/Berlin
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Niklas Heidloff
+title: Sara Butler
 
-tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm an IT professional focussing on artificial intelligence, development and advocacy.</div><div style='padding-bottom: 10px;'></div><div>Recently I've worked on Generative AI, Kubernetes, Open Source, Java and DevOps at IBM.</div><div style='padding-bottom: 10px;'></div><div>I'm a proud father of five and love building things - software as well as outdoor areas.</div>"
+tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm a PhD student at The University of Vienna and The Institute for Quantum Optics and Quantum Information - Vienna.</div><div style='padding-bottom: 10px;'></div><div>Recently, I'm working on problems related to time and quantum gravity.</div><div style='padding-bottom: 10px;'></div>"
 
 description: >-   
-  Blog from Niklas Heidloff, an IT professional focussing on artificial intelligence, development and advocacy. Niklas works at IBM and shares his AI, Cloud, OpenSource and DevOps experience.
+  Blog from Sara Butler, PhD student in Vienna, Austria
 
 github:
-  username: nheidloff
+  username: boozey-psi
 social:
-  name: Niklas Heidloff
+  name: Sara Butler
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/niklasheidloff 
-    - https://github.com/nheidloff        
+    - https://www.linkedin.com/in/saraabutler 
+    - https://github.com/boozey-psi     
 
 google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: UA-21626700-1
+  id: G-HJ6840WB2S
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -70,7 +69,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/4Y7B9422-4.jpeg'
+# avatar: '/assets/img/4Y7B9422-4.jpeg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
